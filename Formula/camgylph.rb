@@ -1,8 +1,8 @@
 class Camgylph < Formula
   desc "Real-time CLI camera renderer that converts webcam frames into colored ASCII"
   homepage "https://github.com/landxcape/camgylph"
-  url "https://github.com/landxcape/camgylph/archive/refs/tags/v1.5.2.tar.gz"
-  sha256 "65cf3509d9d9f16f11be550c79f177d950b2ff3d461e018553590af58a86709a"
+  url "https://github.com/landxcape/camgylph/archive/refs/tags/v1.5.3.tar.gz"
+  sha256 "45ec78c4f934712bd075a5417306fbae1ac0cb8462fa6b70c3b01804d641b1ae"
   license "MIT"
 
   depends_on "rust" => :build
