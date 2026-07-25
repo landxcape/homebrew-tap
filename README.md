@@ -1,11 +1,16 @@
 # homebrew-tap
 
-Homebrew tap for `camgylph`.
+Homebrew tap for `mso` and `camgylph`.
 
-## Install
+## Install mso (macOS Developer Storage Migrator)
 
 ```bash
-brew tap landxcape/tap
+brew install landxcape/tap/mso
+```
+
+## Install camgylph
+
+```bash
 brew install landxcape/tap/camgylph
 ```
 
@@ -13,5 +18,5 @@ brew install landxcape/tap/camgylph
 
 ```bash
 brew update
-brew upgrade camgylph
+brew upgrade mso
 ```
