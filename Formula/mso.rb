@@ -7,10 +7,10 @@ class Mso < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/landxcape/mac-sym-offload/releases/download/v0.3.3/mso-macos-arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "7a9f6b8ed9c60866ca3b22af5087da6be6765cd67d57d1eb0140f276bdd5a9a1"
     elsif Hardware::CPU.intel?
       url "https://github.com/landxcape/mac-sym-offload/releases/download/v0.3.3/mso-macos-x86_64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "681397708804a395df4005f7f0d8a8be21c283527493bb8ca66170358d9974d8"
     end
   end
 
