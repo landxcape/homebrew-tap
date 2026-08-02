@@ -1,16 +1,16 @@
 class Mso < Formula
   desc "Safely offload bloated macOS developer caches to an external APFS SSD"
   homepage "https://github.com/landxcape/mac-sym-offload"
-  version "0.3.7"
+  version "0.3.8"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/landxcape/mac-sym-offload/releases/download/v0.3.7/mso-macos-arm64.tar.gz"
-      sha256 "e9e66953098560e00e571fc80326ff82ced982ebe9f7be262a468c4960c27c69"
+      url "https://github.com/landxcape/mac-sym-offload/releases/download/v0.3.8/mso-macos-arm64.tar.gz"
+      sha256 "8d707014ccba1665b5662ae1ba99b5537afd78f6edf6dd5bc7bcd1a9191f57bb"
     elsif Hardware::CPU.intel?
-      url "https://github.com/landxcape/mac-sym-offload/releases/download/v0.3.7/mso-macos-x86_64.tar.gz"
-      sha256 "fefb0e1e9525e4f71302143328352b59d3978f5b8bc5eb59b783739049f32e26"
+      url "https://github.com/landxcape/mac-sym-offload/releases/download/v0.3.8/mso-macos-x86_64.tar.gz"
+      sha256 "40ffe9b6e5e5fcb11c1a9367ed406275b50cfea8a45abdfa648a7499a81d1d75"
     end
   end
 
@@ -19,6 +19,6 @@ class Mso < Formula
   end
 
   test do
-    assert_match "0.3.7", shell_output("#{bin}/mso --version")
+    assert_match "0.3.8", shell_output("#{bin}/mso --version")
   end
 end
