@@ -1,21 +1,21 @@
 class Camgylph < Formula
   desc "Real-time CLI camera renderer that converts webcam frames into colored ASCII"
   homepage "https://github.com/landxcape/camgylph"
-  version "1.5.5"
+  version "1.5.6"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/landxcape/camgylph/releases/download/v1.5.5/camgylph-macos-aarch64.tar.gz"
-      sha256 "098ef98c5ea16dc645a2ca0b4170c1b5eb82096c307c406e49229df1fc1ff6c3"
+      url "https://github.com/landxcape/camgylph/releases/download/v1.5.6/camgylph-macos-aarch64.tar.gz"
+      sha256 "25303a9699d774eb773e38502892bf73da8f2269ee4d9558be1eca745895339b"
     elsif Hardware::CPU.intel?
-      url "https://github.com/landxcape/camgylph/releases/download/v1.5.5/camgylph-macos-x86_64.tar.gz"
-      sha256 "f7609fcf06e70324a471b7dc931856d12a7d230e2de72cf7dd102e9fc196dddb"
+      url "https://github.com/landxcape/camgylph/releases/download/v1.5.6/camgylph-macos-x86_64.tar.gz"
+      sha256 "af3105305bfa928da5236e130e0834160069e7f26241d8222a53dd8f3824d57a"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/landxcape/camgylph/releases/download/v1.5.5/camgylph-linux-x86_64.tar.gz"
-      sha256 "5e106e76bbd773410ae2866eaa8d716f514af04fe97e62a3028e24b004c253a5"
+      url "https://github.com/landxcape/camgylph/releases/download/v1.5.6/camgylph-linux-x86_64.tar.gz"
+      sha256 "9452af6d50b06539fa75bb668f96f16811261772ec343a94b05d208212d740d8"
     end
   end
 
