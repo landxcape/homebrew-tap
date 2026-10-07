@@ -1,8 +1,8 @@
 class Rscan < Formula
   desc "High-performance Layer 2 ARP & TCP port network scanner"
   homepage "https://github.com/landxcape/rscan"
-  url "https://github.com/landxcape/rscan/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "be9e2ee5e50ce3022e864c66b0f1206116e664e1b65b62c364b0921b22175cbc"
+  url "https://github.com/landxcape/rscan/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "7b993a86a1b464246b9c0e80a95468ca61c3c6d14703d9457d1a730474b9efb3"
   license "MIT"
 
   depends_on "rust" => :build
