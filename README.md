@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Official [Homebrew](https://brew.sh) tap for developer tools and CLI utilities by [@landxcape](https://github.com/landxcape).
+Homebrew tap for CLI tools and developer utilities by [@landxcape](https://github.com/landxcape).
 
 ---
 
