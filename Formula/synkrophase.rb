@@ -1,5 +1,5 @@
 class Synkrophase < Formula
-  desc "High-precision external media controller synchronizer for local networks"
+  desc "Local network media controller synchronizer"
   homepage "https://github.com/landxcape/synkrophase"
   version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]

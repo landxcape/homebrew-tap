@@ -1,5 +1,5 @@
 class Rscan < Formula
-  desc "High-performance Layer 2 ARP & TCP port network scanner"
+  desc "Layer 2 ARP and TCP port network scanner"
   homepage "https://github.com/landxcape/rscan"
   version "0.2.2"
   license "MIT"
