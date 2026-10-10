@@ -7,15 +7,15 @@ class Synkrophase < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/landxcape/synkrophase/releases/download/v0.3.5/synkrophase-macos-aarch64.tar.gz"
-      sha256 "0319ee88a253bb2a8f55957423d524bedbb5d1c6ac05510a358be02692bfb6bf"
+      sha256 "eedaca984668ff883bc0022c0be914ff6e5ee7435036ac34df294997d3116111"
     elsif Hardware::CPU.intel?
       url "https://github.com/landxcape/synkrophase/releases/download/v0.3.5/synkrophase-macos-x86_64.tar.gz"
-      sha256 "bb124f5c9783a9f39a427e068a471f507af175509ca609b64a68c47541bc7d9e"
+      sha256 "7952ef256b4d497200944ed10b8538784461ed928cf79d5aa37db337c719d7eb"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/landxcape/synkrophase/releases/download/v0.3.5/synkrophase-linux-x86_64.tar.gz"
-      sha256 "606f269b5c404e183677f64bd6d366c986dfd990cb8cead68fa01b36923b609f"
+      sha256 "6252a4e0d8f52c1bf03bb0ca667257c811e1ecdc2d2ef9bf1025bc8a7b67236d"
     end
   end
 
