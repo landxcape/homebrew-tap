@@ -1,21 +1,21 @@
 class Synkrophase < Formula
   desc "Local network media controller synchronizer"
   homepage "https://github.com/landxcape/synkrophase"
-  version "0.4.2"
+  version "0.5.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/landxcape/synkrophase/releases/download/v0.4.2/synkrophase-macos-aarch64.tar.gz"
-      sha256 "b5bdcc0ae93ea621d5f20e6a916241411c9b0ac2d6f6b4b7025773fdf3a0c813"
+      url "https://github.com/landxcape/synkrophase/releases/download/v0.5.0/synkrophase-macos-aarch64.tar.gz"
+      sha256 "e3baa0936c88ae1f2f954f07f29cc46a56acc5c97e6a0743c527cb137a8424a6"
     elsif Hardware::CPU.intel?
-      url "https://github.com/landxcape/synkrophase/releases/download/v0.4.2/synkrophase-macos-x86_64.tar.gz"
-      sha256 "7ece8378bcb2d85d74fbcc3eeb3c9cae4d35eeafa8bec73fb5cead3199420041"
+      url "https://github.com/landxcape/synkrophase/releases/download/v0.5.0/synkrophase-macos-x86_64.tar.gz"
+      sha256 "9956521488d55876aa6f8856531ca74ef766cf183cca3c554672219dcb5bd1a9"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/landxcape/synkrophase/releases/download/v0.4.2/synkrophase-linux-x86_64.tar.gz"
-      sha256 "30d35579e65dbe0426ac7d3d976d7c5256a02d5ed6fa6ad461a46e662deb4adb"
+      url "https://github.com/landxcape/synkrophase/releases/download/v0.5.0/synkrophase-linux-x86_64.tar.gz"
+      sha256 "45fd5234d196a949ece7c9684ad48cc94cd57369a91923a5b538c165f2ac131a"
     end
   end
 
@@ -24,6 +24,6 @@ class Synkrophase < Formula
   end
 
   test do
-    assert_match "0.4.2", shell_output("#{bin}/synkro --version")
+    assert_match "0.5.0", shell_output("#{bin}/synkro --version")
   end
 end
