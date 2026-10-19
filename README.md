@@ -4,14 +4,22 @@ Homebrew tap for CLI tools and developer utilities by [@landxcape](https://githu
 
 ---
 
-## 📦 Available Formulas
+## 📦 Available Formulas & Casks
+
+### CLI Formulas
 
 | Formula | Description | Links |
 | :--- | :--- | :--- |
 | **[`rscan`](Formula/rscan.rb)** | Layer 2 ARP and TCP port network scanner with vendor lookup and subnet auto-discovery. | [GitHub](https://github.com/landxcape/rscan) |
 | **[`mso`](Formula/mso.rb)** | Safely offload macOS developer caches (Xcode, Android, Gradle, CocoaPods) to external APFS drives. | [GitHub](https://github.com/landxcape/mac-sym-offload) |
 | **[`camgylph`](Formula/camgylph.rb)** | Real-time CLI camera renderer that converts webcam frames into colored ASCII art in your terminal. | [GitHub](https://github.com/landxcape/camgylph) |
-| **[`synkrophase`](Formula/synkrophase.rb)** | Local network media controller synchronizer. | [GitHub](https://github.com/landxcape/synkrophase) |
+| **[`synkrophase`](Formula/synkrophase.rb)** | Local network media controller synchronizer (CLI / TUI engine). | [GitHub](https://github.com/landxcape/synkrophase) |
+
+### macOS Casks
+
+| Cask | Description | Links |
+| :--- | :--- | :--- |
+| **[`synkrophase`](Casks/synkrophase.rb)** | Native menu bar controller synchronizer for local networks (macOS GUI App). | [GitHub](https://github.com/landxcape/synkrophase-gui) |
 
 ---
 
@@ -26,7 +34,10 @@ brew tap landxcape/tap
 ### 2. Install any tool
 
 ```bash
-# Local Network Media Controller Synchronizer
+# Synkrophase Native macOS Menu Bar App
+brew install --cask landxcape/tap/synkrophase
+
+# Synkrophase CLI / TUI Synchronizer Engine
 brew install landxcape/tap/synkrophase
 
 # Layer 2 ARP & TCP Port Network Scanner
