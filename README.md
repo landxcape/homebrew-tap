@@ -34,10 +34,12 @@ brew tap landxcape/tap
 ### 2. Install any tool
 
 ```bash
-# Synkrophase Native macOS Menu Bar App
+# Synkrophase — Native macOS Menu Bar App (Cask)
+# Installs BOTH the GUI App (/Applications/Synkrophase.app) AND the CLI daemon (synkro):
 brew install --cask landxcape/tap/synkrophase
 
-# Synkrophase CLI / TUI Synchronizer Engine
+# Synkrophase — CLI & TUI Engine ONLY (Formula)
+# Installs ONLY the command-line binary and background daemon (/opt/homebrew/bin/synkro):
 brew install landxcape/tap/synkrophase
 
 # Layer 2 ARP & TCP Port Network Scanner
