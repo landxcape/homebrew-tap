@@ -1,6 +1,6 @@
 cask "synkrophase" do
-  version "0.1.0"
-  sha256 "52f7624184a65e4d6c4e395e0f42fcdd29373d77e92bc57e97644f6a4dc0d6b6"
+  version "0.1.1"
+  sha256 "11f6abe493b946e886c13b59ac08053fece8355162f8ca37e8b8b08872baef00"
 
   url "https://github.com/landxcape/synkrophase-gui/releases/download/v#{version}/Synkrophase-macos-arm64.zip"
   name "Synkrophase"
