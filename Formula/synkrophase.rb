@@ -5,16 +5,16 @@ class Synkrophase < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/landxcape/synkrophase/releases/download/v0.8.2/synkrophase-macos-aarch64.tar.gz"
-      sha256 "478cd77cd13cb6f9b2e24f17e8420bba1e17fefec1221db0d69f879404e4a78a"
+      url "https://github.com/landxcape/synkrophase/releases/download/v0.8.3/synkrophase-macos-aarch64.tar.gz"
+      sha256 "3bc6296a9c167f3010d6b910bbc18404b9725f3cb8cabafe8824c95fb8394cf7"
     elsif Hardware::CPU.intel?
-      url "https://github.com/landxcape/synkrophase/releases/download/v0.8.2/synkrophase-macos-x86_64.tar.gz"
-      sha256 "9af589a4917f4044307250755a86c5175b8fc1769b5eedd5094faaa297b496ae"
+      url "https://github.com/landxcape/synkrophase/releases/download/v0.8.3/synkrophase-macos-x86_64.tar.gz"
+      sha256 "f359d1f55a9848fb76f017b659c9e622d20131fce300aa6704ca6b27d10962b5"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/landxcape/synkrophase/releases/download/v0.8.2/synkrophase-linux-x86_64.tar.gz"
-      sha256 "f33a1e4d1ff98c88e6916c50c86f14d0b4b047be7de9536920a27eaf5a9f0af4"
+      url "https://github.com/landxcape/synkrophase/releases/download/v0.8.3/synkrophase-linux-x86_64.tar.gz"
+      sha256 "e7fb7ee876a1582ad0c3d21e519a9d63a622c3f207e2b5a406b3df561cb84067"
     end
   end
 
@@ -23,6 +23,6 @@ class Synkrophase < Formula
   end
 
   test do
-    assert_match "0.8.2", shell_output("#{bin}/synkro --version")
+    assert_match "0.8.3", shell_output("#{bin}/synkro --version")
   end
 end
